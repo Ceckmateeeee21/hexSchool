@@ -4,8 +4,33 @@
 }
 .wrap{
     margin: 0 auto;
+    /*max-width: 1200px;*/
 }
-.top-left a{
+.top{
+    display:flex;
+}
+.top-left img{
+    width:50%;
+}
+.top-right{
  
-    color:red;
+    background-color: yellow;
 }
+
+
+  .top-right a{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    
+    cursor: pointer;
+    padding: 12px 32px;
+    border-radius: 55%;
+  }
+  
