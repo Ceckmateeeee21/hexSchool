@@ -1,0 +1,63 @@
+.container{
+    max-width: 1088px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 15px 50px;
+    
+
+}
+.planlogo{
+    margin: 20px 0;
+	width: 150px;
+	height: 30px;
+    background: #FF5D50;
+    color: white;
+	font-size: 16px;
+	font-weight: 900;
+    border-radius: 45px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.planlogo a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+.toplogo{
+    display:flex;
+    justify-content:space-between;
+}
+
+.role1234 li{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    justify-content: space-between;
+    
+
+}
+
+.footer-banner{
+
+    background-image: url('chatTalker_images/footer_sm.svg');
+    background-repeat: no-repeats;
+    height: 503px;/*PC height*/
+    background-size: cover;
+    position: relative;
+}
+
+@media(max-width:767px) {
+     
+    .footer-banner{
+        height: 461px;
+    }
+}
+.footer{
+    background: #F5F5F5;
+    text-align: center;
+}
