@@ -1,24 +1,39 @@
-.orange{
-    color: orange;
-    font-size: 30px;
-}
+
+/*index css*/
 .wrap{
-    margin: 0 auto;
-    /*max-width: 1200px;*/
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-left: 139px;
+  margin-right:139px;
 }
-.top{
-    display:flex;
-}
-.top-left img{
-    width:50%;
-}
-.top-right{
+.home-banner{
+ /* display: flex;*/
  
-    background-color: yellow;
+  top: 0px;
+  left: 516px;
+  width: 851px;
+  height: 768px;
+  
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right 100px, top right;
+  
+  background-image: 
+  url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/home.svg'),
+  url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/bg_home.svg');
 }
 
 
-  .top-right a{
+
+.toptwola{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+  .top-right{
     text-decoration: none;
     color: white;
     position: fixed;
@@ -28,9 +43,184 @@
     border: none;
     outline: none;
     background-color: red;
-    
     cursor: pointer;
     padding: 12px 32px;
     border-radius: 55%;
+    
+     
+  }
+
+.chat-n-men{
+  padding-top:159px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.chat-photo{
+  padding-left: 102px;
+}
+
+ .socialThree{
+   display: flex;
+
+   }
+.social-fb{
+top: 963px;
+left: 270px;
+width: 90px;
+height: 90px;
+/* UI Properties */
+background: transparent url('chatTalker_images/messenger.svg') ;
+background-repeat: no-repeat;
+background-size: 35%;
+opacity: 1;
+}
+  /*banner-left chattalk*/
+  .chat-left{
+    top: 276px;
+    left: 141px;
+    width: 262px;
+    height: 26px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 18px/26px Noto Sans TC;
+    letter-spacing: 0px;
+    color: #56C4C5;
+    opacity: 1;
+  }
+  .chat-second{
+    
+    top: 310px;
+    left: 141px;
+    width: 432px;
+    height: 140px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 48px/70px Noto Sans TC;
+    letter-spacing: 0px;
+    color: #221E1F;
+    opacity: 1;
+  }
+  .caht-third{
+    top: 466px;
+    left: 141px;
+    width: 451px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 20px/29px Noto Sans TC;
+    letter-spacing: 0px;
+    color: #221E1F;
+    opacity: 1;
+  }
+/*****************************************************************/
+  /*plan css*/
+  .plan-banner{
+    top: 0px;
+    left: 516px;
+    width: 851px;
+    height: 768px;
+    background-position: right top,right top;
+    background-repeat: no-repeat;   
+    background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/banner.svg');
+  }
+  
+  .plan-banner-left{
+      display: flex;
+  }
+  .plan-list{
+    display: flex;
+    margin: 10px;
+  }
+  .plan-1{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px 32px;
+    background-color: #56C4C5;
+    border-radius: 45%;
+   
+  }
+  .plan-2{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px 32px;
+    background-color: #56C4C5;
+    border-radius: 55%;
+  }
+  .plan-3{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px 32px;
+    background-color: #56C4C5;
+    border-radius: 55%;
+  }
+  .plan-4{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px 32px;
+    background-color: #56C4C5;
+    border-radius: 55%;
+  }
+  .plan-5{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px 32px;
+    background-color: #56C4C5;
+    border-radius: 55%;
+  }
+  
+  .calc-plan{
+      display:flex;
+  }
+  
+  .cal-basic{
+      padding-right: 30px;
+  }
+  
+  .subscribe-fee{
+      display:flex;
+      
+  }
+  .subscrib{
+    padding-right: 30px;
+  }
+  .faq-1-outframe{
+    display: flex;
+    padding-bottom: 10px;
+  }
+  
+  .C-plus{
+    padding-left: 20px;
+    padding-bottom: 30px;
+     cursor: pointer;
+  }
+  .C-minus{
+    padding-left: 20px;
+    padding-bottom:5px;
+    cursor: pointer;
+  
+  }
+  .orange{
+      color: orange;
+      font-size: 30px;
+  }
+  .green {
+    color: green;
+    font-size: 16px;
   }
   

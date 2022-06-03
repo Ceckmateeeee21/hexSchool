@@ -1,13 +1,33 @@
 
 $(document).ready(function(){
-    $('h1').click(function(event){
-    //$('p').toggle()(); //開關，原本開就關，原本關就開
-       //$('p').toggle();//滑出開關
-       
-       //$('.p2').slideToggle(5000);//滑出開關
-       //$('p').slideDown(3000).slideUp(3000);//鍊式效果，在舊的動作後加上點就可以連接新動作
-        //$('.p1').addClass('orange');//.class的p1加入js 的css 
-        $('.p1').toggleClass('orange');//開關
-       });
+  $('.p1').hide(); //開關，原本開就關，原本關就開
+  $('.C-minus').hide()
+ 
+
+      $('.C-plus').click(function(event){
+    
+            $('.p1').toggle();//滑出開關
+            $('.C-plus').toggle();
+            $('.C-minus').toggle();
+            $('.faq-1').toggleClass('green');
+            });
+
+          $('.C-minus').click(function(event){
+              $('.p1').toggle();//滑出開關
+              $('.C-minus').toggle();
+              $('.C-plus').toggle();
+              $('.faq-1').removeClass('green');
+
+             
+
+           });
+      $('.C-plus2').click(function(event){
+              $('.p2').toggleClass('orange');
+           });
+      $('.C-plus3').click(function(event){
+           $('.p3').toggleClass('orange');//開關css
+          });
    });
+
+   
    
