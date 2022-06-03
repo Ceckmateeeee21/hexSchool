@@ -31,16 +31,20 @@
     display:flex;
     justify-content:space-between;
 }
-
-.role1234 ul{
-    width: 100px;
+.role4 ul li img{
+    width: 100%;
+    
+}
+.role4 ul{
+    /*width: 100px;*/
     display: flex;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     background-color: yellow;
    /* justify-content: space-between;*/
     
 
 }
+
 
 .footer-banner{
 
