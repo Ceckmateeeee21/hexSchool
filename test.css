@@ -70,7 +70,75 @@
     color: #221E1F;
     font-weight: bold;
 }
+/*背景圓形左邊*/
+.hero-ball{
+    position: absolute;
+    width:360px;
+    height:360px;
+    background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/ball01.svg');
+    top:calc(100vh - 250px);
     
+  /*   right:-200px; 這個方法雖然也可以達到半圓但會產生x軸，所以我們不改方向，我們改這個圖Div的寬度 */
+    left:0px;/*靠左*/
+  /*   width:180px;圖片顯示寬 */
+  background-position: right;
+  
+   width:180px;/*圖片顯示寬*/
+   z-index: -1;
+   
+  }
+  @media(max-width:768px){
+    .hero-ball{
+        position: absolute;
+        width:360px;
+        height:360px;
+        background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/ball01.svg');
+        top:380px;
+        left:0px;/*靠右*/
+       width:180px;
+       top:109vh;
+      }
+   
+  }
+  .social-three{
+      margin-top: 150px;
+  }
+  .social-three p {
+    
+    height: 46px;
+    font: normal normal bold 32px/46px Noto Sans TC;
+    letter-spacing: 0px;
+    color: #221E1F;
+    text-align: center;
+        
+        
+  }
+  .social-three ul{
+    display:flex;
+    justify-content: space-around;
+   
+     
+    }
+.fb{
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/messenger.svg');
+}
+.line{
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/line.svg');
+}
+    
+.ig{
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/instagram.svg');
+}
+
 /* 任何腳色我都能給，下面 */
 .role4 ul li img{
     width: 100%;
