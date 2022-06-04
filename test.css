@@ -88,6 +88,12 @@
    
   }
   @media(max-width:768px){
+      .top-background{
+          /* width:334px;
+          height: 244.79px; */
+          padding-bottom: 400px;
+          background-image: url('file:///C:/Users/user/Documents/GitHub/WinCss/hexSchool/chatTalker_images/bg_home_sm.svg');
+      }
     .hero-ball{
         position: absolute;
         width:360px;
@@ -233,7 +239,72 @@ color: #747474;
     padding-left:16px;
     padding-right:16px;
 }
+/*data-pool*/
 
+data-pool{
+    /* display: flex; */
+    width: 1039px;
+    height: 588px;
+    
+}
+.data-card{
+    display:flex;
+    
+    /* background-color:yellow; test*/
+}
+.data-card ul{
+   
+    width: 507px;
+    height: 588px;
+    display: flex;
+    flex-wrap: wrap;
+  gap:10px;
+  
+  
+}
+
+.data-item{
+    width: 230px;
+    height: 280px;
+    box-shadow: 0px 2px 10px;
+    background-color:rgb(0, 128, 26);
+    border-radius:20px;
+}
+
+
+.arrow-photo{
+  width: 86px;
+  height: 86px;
+  background-size: contain;
+  background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon01.svg');
+ 
+}
+.arrow-photo p{
+    font-size: 16px;
+}
+
+  .bulb-photo{
+    
+    width: 86px;
+  height: 86px;
+  background-size: contain;
+    background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon02.svg');
+   
+  }
+  .msg-photo{
+    width: 86px;
+  height: 86px;
+  background-size: contain;
+    background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon03.svg');
+   
+  }
+  .msgG-photo{
+    width: 86px;
+  height: 86px;
+  background-size: contain;
+    background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon04.svg');
+   
+  }
 .footer-banner {
     max-width: 100%;
     
