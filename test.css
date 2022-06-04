@@ -101,7 +101,8 @@
    
   }
   .social-three{
-      margin-top: 150px;
+      margin-top: 101px;
+      margin-bottom: 100px;
   }
   .social-three p {
     
@@ -119,20 +120,59 @@
    
      
     }
-.fb{
+    .fb{
+        width:224px;
+        height: 221px;
+    
+    }
+    .fb .fb-photo{
+        text-align: center;
+    }
+   
+.fb h2{
+  
+    text-align: center;
+    font: normal normal bold 24px/35px Noto Sans TC;
+    letter-spacing: 0px;
+}
+.fb p{
+    top: 1136px;
+left: 201px;
+width: 228px;
+height: 48px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 16px/24px Noto Sans TC;
+letter-spacing: 0px;
+color: #747474;
+}
+.fb-photo {
+    margin-top:24px;
+    margin-bottom:24px;
+    margin-left:77px;
+    margin-right:77px;
     width: 90px;
     height: 90px;
     background-size: contain;
     background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/messenger.svg');
+       
 }
-.line{
+.line-photo{
+    margin-top:24px;
+    margin-bottom:24px;
+    margin-left:77px;
+    margin-right:77px;
     width: 90px;
     height: 90px;
     background-size: contain;
     background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/line.svg');
 }
     
-.ig{
+.ig-photo{
+    margin-top:24px;
+    margin-bottom:24px;
+    margin-left:77px;
+    margin-right:77px;
     width: 90px;
     height: 90px;
     background-size: contain;
