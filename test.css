@@ -203,7 +203,7 @@ color: #747474;
 .role4 ul{
     /*width: 100px;*/
     display: flex;
-    background-color: yellow;
+    /* background-color: yellow; */
    /* justify-content: space-around; */
    gap:16px;
       
@@ -381,7 +381,9 @@ data-pool{
    
    line-height:23px;
  }
- 
+ .comment-main2{
+     display: none;
+ }
  .comment-title{
     text-align: center;
     font-weight: bold;
@@ -514,16 +516,15 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     background-image: 
   url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon_star.svg');
   }
-  .comment-main h5{
+  .comment-main .dot{
     /* position:relative;  */
-    top: 3021px;
-    left: 648px;
+
     width: 10px;
     height: 10px;
     text-decoration: none;
-    background: #56C4C5;
+    background: #DDDDDD;
     border-radius: 45px;
-   text-align: center;
+   /* text-align: center; */
     
   }
 .footer-banner {
@@ -625,20 +626,22 @@ padding-right: 461px; */
       height:126px;
       background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/ball01.svg');
       /* top:380px; */
-      left:0px;/*靠右*/
+      /* left:0px;靠右 */
      /* width:180px; */
      width: calc(100%-180px);
      background-size: contain;
      background-repeat: no-repeat;
      
      /* top:109vh; */
-     top:200vh;
+     top:173vh;
+     left: -120px;
  }
     
     .social-three ul{
         display: flex;
         flex-direction: column;
-        padding-left: 20%;
+        padding-left: 35%;
+        
     }
     .social-three.fb{
         width: 228px;
@@ -647,7 +650,7 @@ padding-right: 461px; */
     .role4 ul{
         display: flex;
         flex-direction: column;
-       
+        padding-left: 15%;
     }
    
     .role-item{
@@ -667,7 +670,7 @@ padding-right: 461px; */
     .data-card{
         display:flex;
         flex-direction: column-reverse;
-        
+        padding-left: 25%;
        
     }
     .data-card ul{
@@ -678,10 +681,45 @@ padding-right: 461px; */
         /* display: flex;
         flex-wrap: wrap; */
         /* gap:30px; */
-       
+        padding-left: 10%;
       
     }
-
+    .data-des> .planlogoGreen{
+        padding-left: 20%;
+    }
+    .comment-main{
+        display: none;
+    }
+    .comment-main2{
+        display: block;
+        
+    }
+    
+    .comment-item ul{
+        display: flex;
+        flex-direction: column; 
+        padding-left: 200px;
+        
+    }
+    .cmt-photo-fm1-1{
+        left:240px;
+        top:5140px;
+        
+        }
+     
+      /*.cmt-photo-fm2-1{
+         display: none;
+        left:300px;
+        top:5200px;
+        
+     }*/
+     /*.cmt-photo-fm3-1{
+        display: none;
+        left:400px;
+        top:5200px;
+        
+     } */
+     
 
     .footer{
         background: #F5F5F5;
