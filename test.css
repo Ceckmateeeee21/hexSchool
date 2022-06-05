@@ -249,33 +249,40 @@ data-pool{
 }
 .data-card{
     display:flex;
-    
+    justify-content: space-between;
+    margin-bottom: 20px;
     /* background-color:yellow; test*/
 }
 .data-card ul{
-   
     width: 507px;
     height: 588px;
     display: flex;
     flex-wrap: wrap;
-  gap:10px;
+    gap:30px;
   
   
 }
 
 .data-item{
+    padding-top:10px;
     width: 230px;
     height: 280px;
     box-shadow: 0px 2px 10px;
-    background-color:rgb(0, 128, 26);
+    /* background-color:lightblue; */
     border-radius:20px;
+    text-align: center;
 }
 
 
 .arrow-photo{
   width: 86px;
   height: 86px;
-  background-size: contain;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  background-position:center;
+  background-repeat:no-repeat;
+  border-radius:45%;
+  box-shadow: 0px 2px 10px rgb(147,125,70);/*水平、垂直、模糊狀態、顏色*/
   background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon01.svg');
  
 }
@@ -284,27 +291,60 @@ data-pool{
 }
 
   .bulb-photo{
-    
     width: 86px;
-  height: 86px;
-  background-size: contain;
+    height: 86px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:45%;
+    box-shadow: 0px 2px 10px rgb(147,125,70);/*水平、垂直、模糊狀態、顏色*/
     background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon02.svg');
    
   }
   .msg-photo{
     width: 86px;
-  height: 86px;
-  background-size: contain;
+    height: 86px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:45%;
+    box-shadow: 0px 2px 10px rgb(147,125,70);/*水平、垂直、模糊狀態、顏色*/
     background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon03.svg');
    
   }
   .msgG-photo{
     width: 86px;
-  height: 86px;
-  background-size: contain;
+    height: 86px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:45%;
+    box-shadow: 0px 2px 10px rgb(147,125,70);/*水平、垂直、模糊狀態、顏色*/
     background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon04.svg');
    
   }
+  .data-des{
+    padding-top:165px;
+    width:395px;
+    padding-left:25px;
+  }
+  .data-des h2{
+    font-size:32px;
+    font-weight:bold;
+    padding-right:50px;
+    
+    margin-bottom:20px;
+  }
+  .data-des p{
+    font-size:18px;
+    color: #221E1F;
+   padding-right:50px;
+   
+   line-height:23px;
+ }
 .footer-banner {
     max-width: 100%;
     
@@ -318,9 +358,7 @@ data-pool{
     background-size: cover;
     background-position: center;
     position: relative;
-    
-    
-    
+  
     
 }
 .footer-banner .container p{
@@ -337,23 +375,53 @@ padding-top: 300px;
 padding-left: 500px;
 padding-right: 471px;
 }
-.planlogoGreen{
+.f-p-btn h2{
+    
     margin: 20px 0;
-	width: 136px;
+	
 	height: 30px;
-    background: #56C4C5;
+    /* background: #747474; */
+    color: white;
 	font-size: 16px;
-	font-weight: 900;
-    border-radius: 45px;
+	font-weight: 900;   
+    
     padding-top:10px;
     text-align: center;
-    text-decoration: none;
-    margin-left: 650px;
     
 }
-.planlogoGreen a{
+.f-p-btn a{
+   
+    padding: 20px 40px;/*上下  左右*/
     text-decoration: none;
+    background: #56C4C5;
+    border-radius: 45px;
     color: white;
+    text-align: center;
+}
+.data-des .planlogoGreen{
+    
+    margin: 20px 0;
+	
+	height: 30px;
+    /* background: #747474; */
+    color: white;
+	font-size: 16px;
+	font-weight: 900;   
+    
+    padding-top:10px;
+    
+    
+    
+    /* margin-left: 650px; */
+    
+}
+.data-des .planlogoGreen a{
+    padding: 20px 40px;/*上下  左右*/
+    text-decoration: none;
+    background: #56C4C5;
+    border-radius: 45px;
+    color: white;
+    text-align: left;
     
 }
 @media(max-width:767px) {
