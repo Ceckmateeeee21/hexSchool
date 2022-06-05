@@ -10,6 +10,7 @@
     /* padding: 15px 50px;
      */
 
+
 }
 .planlogo{
     margin: 20px 0;
@@ -39,9 +40,26 @@
 }
 /* chat robot圖文在這一層 */
 .top-background{
-    background-repeat:no-repeat;
-    background-image: url('chatTalker_images/bg_home.svg');
-    background-position: top right;
+    z-index: -2;
+    width: 850px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-color: aqua; */
+    /* margin-left:235px;
+    margin-right:-140px;
+    margin-top: -95px; */
+    /* left: 516px;
+    width: 851px;
+    height: 768px; */
+    /* background-size:cover; */
+      /* right: 0px; */
+    /* background-repeat:no-repeat; */
+    background-image: url('chatTalker_images/bg_home.svg') ;
+    /* background-position: top right; */
+   
+    
 }
 .chatrobot-combine{
     /* max-width: 100%;
@@ -582,16 +600,19 @@ padding-right: 461px; */
    
 }
 
-    .top-background { 
+     .top-background { 
         margin: 0auto;
-        background-size: 50%;
-        position: relative;
-        
-        background-position: right 12%;
-        left: 180px;;
-        /* width:334px;
+        /* background-size: 50%; */
+        /* position: relative; */
+        padding: 20px;
+        /* background-position: right 12%;
+        left: 180px;; */
+         width:334px;
         height: 244.79px;
-        padding-bottom: 400px;*/
+        top: 600px;
+        left:180px;
+        background-size: cover;
+        /*padding-bottom: 400px;*/
         background-image:url('file:///C:/Users/user/Documents/GitHub/WinCss/hexSchool/chatTalker_images/bg_home_sm.svg');
         /* background-image:none; */
 
@@ -613,7 +634,7 @@ padding-right: 461px; */
      /* top:109vh; */
      top:200vh;
  }
-    }
+    
     .social-three ul{
         display: flex;
         flex-direction: column;
@@ -644,10 +665,11 @@ padding-right: 461px; */
         height: 461px;
     }
  
-}
+
 
 
 .footer{
     background: #F5F5F5;
     text-align: center;
+}
 }
