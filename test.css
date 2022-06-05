@@ -524,10 +524,12 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
   
     
 }
-.footer-banner .container p{
-top: 3391px;
-left: 471px;
+.footer-banner  p{
+    top: 5000px;
+/* top: 3391px; */
+/* left: 471px; */
 /* background-color: antiquewhite; */
+
     /* width: 424px; */
 /* height: 46px; */
 text-align: center;
@@ -535,10 +537,11 @@ font: normal normal bold 32px/46px Noto Sans TC;
 letter-spacing: 0px;
 color: #221E1F;
 opacity: 1;
-padding-top: 300px;
+/* padding-top: 300px;
 padding-left: 500px;
-padding-right: 461px;
+padding-right: 461px; */
 }
+
 .f-p-btn h2{
     
     margin: 20px 0;
@@ -584,6 +587,8 @@ padding-right: 461px;
         background-size: 50%;
         position: relative;
         
+        background-position: right 12%;
+        left: 180px;;
         /* width:334px;
         height: 244.79px;
         padding-bottom: 400px;*/
@@ -593,14 +598,21 @@ padding-right: 461px;
     }
     
   .hero-ball{
-      position: absolute;
-      width:360px;
-      height:360px;
+      /* position: absolute; */
+       position: absolute;
+      /* width:360px; */
+      height:126px;
       background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/ball01.svg');
-      top:380px;
+      /* top:380px; */
       left:0px;/*靠右*/
-     width:180px;
-     top:109vh;
+     /* width:180px; */
+     width: calc(100%-180px);
+     background-size: contain;
+     background-repeat: no-repeat;
+     
+     /* top:109vh; */
+     top:200vh;
+ }
     }
     .social-three ul{
         display: flex;
@@ -624,10 +636,11 @@ padding-right: 461px;
         padding-left: 20%;
     }
     .footer-banner{
-        
+        left: 25%;
+        top: 500px;
         background-image: url('chatTalker_images/footer_sm.svg');/*換成小版的圖片*/
-        padding-top: 260px;
-        
+        /* padding-top: 260px; */
+        width: 375px;
         height: 461px;
     }
  
