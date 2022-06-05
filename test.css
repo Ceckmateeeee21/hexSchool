@@ -404,7 +404,7 @@ data-pool{
     border-radius: 10px;
      width: 352px;
      height: 304px;
-     margin-bottom: 100px;
+     margin-bottom: 10px;
      
  }
 
@@ -516,6 +516,13 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     background-image: 
   url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon_star.svg');
   }
+  .dot-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* padding-bottom: 10px; */
+  }
   .comment-main .dot{
     /* position:relative;  */
 
@@ -525,6 +532,9 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     background: #DDDDDD;
     border-radius: 45px;
    /* text-align: center; */
+  
+
+
     
   }
 .footer-banner {
@@ -694,13 +704,8 @@ padding-right: 461px; */
         display: block;
         
     }
-    
-    .comment-item ul{
-        display: flex;
-        flex-direction: column; 
-        padding-left: 200px;
-        
-    }
+  
+  
     .cmt-photo-fm1-1{
         left:240px;
         top:5140px;
