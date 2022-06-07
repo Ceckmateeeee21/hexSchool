@@ -391,6 +391,8 @@ data-pool{
     padding-bottom:100px;
 }
  .comment-item ul{
+     /* max-width: 1088px; /*這還沒調整最佳，先拿掉 */
+     position: relative;
      display: flex;
      gap:16px;
      /* background-color: antiquewhite; */
@@ -443,8 +445,8 @@ border: 1px solid #DDDDDD;
  
 }
 .cmt-photo-fm1-1{
-    left:200px;
-    top:2380px;
+    left:380px;
+    top:2400px;
     z-index: 9;
     position:absolute;
    
@@ -472,8 +474,8 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     
     z-index: 9;
     position:absolute;
-    left: 605px;;
-    top: 2380px;
+    left:580px;
+    top:-60px;
     width: 80px;
     height: 80px;
     border-radius: 45%;
@@ -496,8 +498,10 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
  .cmt-photo-fm3-1{
    z-index: 9;
     position:absolute;
-    left: 1015px;;
-    top: 2380px;
+    /* left:1380px;
+    top:2400px; */
+    left:1020px;
+    top:-50px;
     width: 80px;
     height: 80px;
     border-radius: 45%;
@@ -668,6 +672,10 @@ padding-right: 461px; */
         background-size: cover;
         /* text-align: center; */
         padding-left: 20%;
+    }
+
+    .data-item{
+        margin-bottom: 20px;
     }
     /* .footer-banner{
         
