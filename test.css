@@ -513,6 +513,21 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     background-size: cover;
     background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/user03.jpg');
  }
+ /*測試background img 換成img .cmt-photo1*/
+ /* .cmt-photo1{
+      z-index: 9;
+    position:absolute;
+    /* left:1380px;
+    top:2400px; */
+    /* left:1020px;
+    top:-50px; */
+    /* left:20px;
+    top:20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 45%; */
+     /* */ */
+ /* } */
  .cmt-photo-fm3-2{
     /* background-color:blue; */
     position:relative;
