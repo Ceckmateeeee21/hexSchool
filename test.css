@@ -1,9 +1,9 @@
 .container{
     /* max-width: 100%; */
-    max-width: 1388px;
+    max-width: 1088px;
     margin: 0 auto;
     border: 1px solid red;
-    padding: 15px;
+    /* padding: 15px; */
     /* margin-left:140px;
     margin-right:140px; */
 
@@ -265,7 +265,7 @@ data-pool{
 }
 .data-card ul{
     width: 507px;
-    height: 588px;
+    /* height: 588px; */
     display: flex;
     flex-wrap: wrap;
     gap:30px;
@@ -369,6 +369,7 @@ data-pool{
     padding-left:25px;
   }
   .data-des h2{
+      position: relative;
     font-size:32px;
     font-weight:bold;
     padding-right:50px;
@@ -376,6 +377,7 @@ data-pool{
     margin-bottom:20px;
   }
   .data-des p{
+    position: relative;
     font-size:18px;
     color: #221E1F;
    padding-right:50px;
@@ -408,15 +410,15 @@ data-pool{
     background-color:pink;
    
     border-radius: 10px;
-     width: 352px;
-     height: 304px;
+     /* width: 352px;
+     height: 304px; */
      margin-bottom: 10px;
      
      
  }
 /*.comment-sub-wrap  多包這一層 還是有出現X軸拖拉的時候*/
   .comment-sub-wrap{
-    /* position: relative; */
+    position: relative;
    padding-left:32px;
    padding-right:32px;
     background-color:lightgreen;
@@ -451,7 +453,7 @@ border: 1px solid #DDDDDD;
 .cmt-photo-fm1-1{
     /* left:380px; */
     /* top:2400px; */
-    left:80px;
+    /* left:80px; */
     top:-60px;
     /* z-index: 9; */
     position:absolute;
@@ -480,7 +482,7 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     
     /* z-index: 9; */
     position:absolute;
-    left:580px;
+    /* left:580px; */
     top:-60px;
     width: 80px;
     height: 80px;
@@ -493,7 +495,7 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     position:relative;
     bottom:20px;
     /* left:180px; */
-    margin-left: 180px;
+    /* margin-left: 180px; */
     width:104.8px;
     height:20px;
     background-size:contain;
@@ -506,7 +508,7 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     position:absolute;
     /* left:1380px;
     top:2400px; */
-    left:1020px;
+    /* left:1020px; */
     top:-50px;
     width: 80px;
     height: 80px;
@@ -534,7 +536,7 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     position:relative;
     bottom:20px;
     /* left:180px; */
-    margin-left: 180px;
+    /* margin-left: 180px; */
     width:104.8px;
     height:20px;
     background-size:contain;
@@ -632,21 +634,24 @@ padding-right: 461px; */
 	  
 }
 .chatrobot-combine{
-    display: block;
+    position: relative;
+    display:flex;
+    flex-direction: column;
    
 }
 
      .top-background { 
+         position: relative;
         margin: 0auto;
         /* background-size: 50%; */
         /* position: relative; */
         padding: 20px;
         /* background-position: right 12%;
         left: 180px;; */
-         width:334px;
-        height: 244.79px;
-        top: 600px;
-        left:180px;
+         width:400px;
+        height: 280px;
+        top: -400px;
+        /* left:180px; */
         background-size: cover;
         /*padding-bottom: 400px;*/
         background-image:url('file:///C:/Users/user/Documents/GitHub/WinCss/hexSchool/chatTalker_images/bg_home_sm.svg');
@@ -733,11 +738,15 @@ padding-right: 461px; */
         display: block;
         
     }
-  
+  .comment-sub-wrap{
+     position: relative; 
+  }
   
     .cmt-photo-fm1-1{
-        left:240px;
-        top:5140px;
+        z-index: 1  ;
+        position:absolute;
+        /* left:240px; */
+        top:5050px;
         
         }
      

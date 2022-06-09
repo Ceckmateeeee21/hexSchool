@@ -1,0 +1,19 @@
+.container{
+    /* max-width: 100%; */
+    max-width: 1088px;
+    margin: 0 auto;
+    border: 1px solid red;
+background-color: yellow;
+
+
+}
+.role4 {
+    display: flex;
+   
+
+}
+
+.role4 img{
+    width: 260px;
+   
+}
