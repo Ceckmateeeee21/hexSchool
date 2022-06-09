@@ -688,31 +688,39 @@ padding-right: 461px; */
      top:173vh;
      left: -120px;
  }
-    
+    .social-three{
+        position: relative;
+    }
     .social-three ul{
         position: relative;
         display: flex;
         flex-direction: column;
-        padding-left: 35%;
-        
+        /* text-align: center; */
+        /* padding-left: 15%;
+       */
     }
+    s
     .social-three.fb{
-        width: 228px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        
         
     }
     .role4 ul{
         position: relative; 
         display: flex;
         flex-direction: column;
-        padding-left: 15%;
+        /* padding-left: 15%; */
     }
     
     .role-item{
         position: relative;
-        width: 260px;
-        background-size: cover;
+        width: 80%;
+        background-size: contain;
         /* text-align: center; */
-        padding-left: 20%;
+        
     }
     
     /* .data-item{
