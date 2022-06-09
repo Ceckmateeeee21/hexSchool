@@ -10,8 +10,9 @@ background-color: yellow;
 }
 .role4 ul{
     display: flex;
-     justify-content: space-around;
-    gap:16px;   
+    justify-content: space-around;
+    gap:16px; 
+  
 }
 
 /* .role4 ul li img{
@@ -19,20 +20,21 @@ background-color: yellow;
    
 } */
 .role4 img{
-    width: 25%;
+    
+    width: 100%;
 
     /* position: relative;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%; */
 }
-/* .role-item{
+.role-item{
     
      width: 25%;
     height: 25%; 
     text-align: center;
     
     
-} */
+}
 .role-title{
     font-size: 32px;
     font-family: Noto Sans TC;

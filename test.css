@@ -217,10 +217,12 @@ color: #747474;
 
 }
 .role4 img{
+    position: relative;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 }
 .role-item{
+    position: relative;
     width: 25%;
     height: 25%;
     text-align: center;
@@ -228,6 +230,7 @@ color: #747474;
     
 }
 .role-title{
+    position: relative;
  font-size: 32px;
  font-family: Noto Sans TC;
  font-weight:800;
@@ -235,6 +238,7 @@ color: #747474;
 }
 
 .role-p{
+    position: relative;
     font-size: 20px;
     font-family: Noto Sans TC;
     text-align: center;
@@ -656,13 +660,13 @@ padding-right: 461px; */
         padding: 20px;
         /* background-position: right 12%;
         left: 180px;; */
-         width:400px;
+         width:75%;
         height: 280px;
         top: -400px;
         /* left:180px; */
-        background-size: cover;
+        background-size: contain;
         /*padding-bottom: 400px;*/
-        background-image:url('file:///C:/Users/user/Documents/GitHub/WinCss/hexSchool/chatTalker_images/bg_home_sm.svg');
+        background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/bg_home_sm.svg');
         /* background-image:none; */
 
     }
@@ -702,7 +706,7 @@ padding-right: 461px; */
         flex-direction: column;
         padding-left: 15%;
     }
-   
+    
     .role-item{
         position: relative;
         width: 260px;
@@ -710,7 +714,7 @@ padding-right: 461px; */
         /* text-align: center; */
         padding-left: 20%;
     }
-
+    
     /* .data-item{
         margin-bottom: 20px;
     } */
