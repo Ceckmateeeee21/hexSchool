@@ -396,7 +396,7 @@ data-pool{
     padding-bottom:100px;
 }
  .comment-item ul{/*還是有X軸*/
-    margin: auto;
+    margin: auto; /*加了這個三張框框就會自動調整內部*/
      /* max-width: 1088px; /*這還沒調整最佳，先拿掉 */
      position: relative;
      display: flex;
