@@ -496,7 +496,7 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     position:relative;
     bottom:20px;
     /* left:180px; */
-    /* margin-left: 180px; */
+    margin-left: 180px;
     width:104.8px;
     height:20px;
     background-size:contain;
@@ -536,8 +536,7 @@ url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_
     /* background-color:blue; */
     position:relative;
     bottom:20px;
-    /* left:180px; */
-    /* margin-left: 180px; */
+    margin-left: 180px;
     width:104.8px;
     height:20px;
     background-size:contain;
@@ -627,7 +626,7 @@ padding-right: 461px; */
     background: #F5F5F5;
     text-align: center;
 }
-
+/***********************************************/
 @media(max-width:768px){
    .toplogo-detail{
     /* background-color: aqua; */
