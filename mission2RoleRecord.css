@@ -11,7 +11,7 @@ background-color: yellow;
 .role4 ul{
     display: flex;
      justify-content: space-around;
-
+    gap:16px;   
 }
 
 /* .role4 ul li img{
