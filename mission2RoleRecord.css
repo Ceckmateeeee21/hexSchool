@@ -1,6 +1,4 @@
-p{
-    color: red;
-}
+
 .container{
     /* max-width: 100%; */
     max-width: 1088px;
@@ -12,25 +10,29 @@ background-color: yellow;
 }
 .role4 ul{
     display: flex;
-   
+     justify-content: space-around;
 
 }
 
-.role4 ul li img{
-    width: 100%;
+/* .role4 ul li img{
+    width:25%
    
-}
+} */
 .role4 img{
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-}
-.role-item{
     width: 25%;
-    height: 25%;
+
+    /* position: relative;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
+}
+/* .role-item{
+    
+     width: 25%;
+    height: 25%; 
     text-align: center;
     
     
-}
+} */
 .role-title{
     font-size: 32px;
     font-family: Noto Sans TC;
