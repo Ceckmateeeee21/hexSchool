@@ -4,63 +4,57 @@
     max-width: 1088px;
     margin: 0 auto;
     border: 1px solid pinks;
-background-color: yellow;
-
-
+/* background-color: yellow; */
 }
-.role4 ul{
+
+.main h2{
+    padding-top:16px;
+ font-size: 32px;
+ text-align: center;
+ font-weight: Bold;
+}
+.main p{
+    padding-top:16px;
+    font-size: 20px;
+    text-align: center;
+
+   }
+   .role4 ul{
+    
     display: flex;
-    justify-content: space-around;
-    gap:16px; 
+    gap:8px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;;
+   }
+   .role-item{
+    width: 25%;
+    
+    
+   }
   
-}
-
-/* .role4 ul li img{
-    width:25%
    
-} */
-.role4 img{
-    
-    width: 100%;
-
-    /* position: relative;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%; */
-}
-.role-item{
-    
-     width: 25%;
-    height: 25%; 
-    text-align: center;
-    
-    
-}
-.role-title{
-    font-size: 32px;
-    font-family: Noto Sans TC;
-    font-weight:800;
-    text-align: center;
+   .role-item img{
+    width:100%;
+    border-radius: 10px;
    }
-   
-   .role-p{
-       font-size: 20px;
-       font-family: Noto Sans TC;
-       text-align: center;
-       padding-top: 10px;
-       padding-bottom: 10px;
-       font-weight:580;
-   }
-   .role-item h2{
+   .role-item h3{
+       position: relative;
        color:#56C4C5;
-       padding-top: 10px;
-       padding-left:16px;
-       padding-right:16px;
-   
+       text-align: center;
+       padding-top: 8px;
+       padding-bottom: 8px;
+       font-weight: Bold;
+
+
    }
-   .role-item p{
-       color:#221E1F;
-       padding-top: 10px;
-       padding-bottom: 10px;
-       padding-left:16px;
-       padding-right:16px;
-   }
+   .role-item h4{
+    position: relative;
+    color:#221E1F;
+    text-align: center;
+    padding-left: 16px;
+    padding-left: 16px;
+    line-height: 20px;
+    padding-bottom: 16px;
+
+}
