@@ -1,0 +1,67 @@
+.container{
+    /* max-width: 100%; */
+    max-width: 40%;
+    margin: 0 auto;
+    border: 1px solid blueviolet;
+   
+}
+.product-list{
+    position: relative;
+}
+.product-list ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    position: relative;
+    width: 300px;
+}
+/* .item img{
+    width: 300px;
+    height: 300px;
+} */
+.namePrice{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: #3F5D45;
+    border:1px solid #EAF0ED;
+    font-size: 20px;
+    padding:15px;   
+}
+.cart{
+    position: relative; 
+    background-color: #EAF0ED;
+    padding-top: 15px;
+    padding-bottom:15px;
+    text-align: center;
+
+}
+.cart a{
+    text-decoration: none;
+    color:#3F5D45;
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+.heart{
+    z-index: 1;
+    position:absolute;
+    box-sizing: border-box;
+    background-image: url("https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/IMG/mission1/student-week1/favorite_border.png");
+    width: 20px;
+    height: 20px;
+    right:10px;
+    top:10px;
+}
+.special{
+    z-index: 1;
+    position: absolute;
+    box-sizing: border-box;
+    writing-mode: vertical-lr;
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    padding:10px;
+    left:10px;
+}
