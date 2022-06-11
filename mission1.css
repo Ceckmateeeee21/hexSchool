@@ -93,15 +93,116 @@
     /* width: 100%; */
     width: 620px;
 }
-.product-item{
+.product-item1{
 
     position: relative;
     width: 100%;
     height: 306px;
     background-image:url("https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/IMG/mission1/student-week1/p-1.png") ;
+    
 }
+.item{
+    position: relative;
+    width: 48%;
+
+}  
+.product-item2{
+
+    position: relative;
+    width: 100%;
+    height: 306px;
+    background-image:url("https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/IMG/mission1/student-week1/p-2.png") ;
+}
+ 
+.product-item3{
+
+    position: relative;
+    width: 100%;
+    height: 306px;
+    background-image:url("https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/IMG/mission1/student-week1/p-3.png") ;
+}
+.product-item4{
+
+    position: relative;
+    width: 100%;
+    height: 306px;
+    background-image:url("https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/IMG/mission1/student-week1/p-4.png") ;
+}
+.product-item5{
+
+    position: relative;
+    width: 100%;
+    height: 306px;
+    background-image:url("https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/IMG/mission1/student-week1/p-5.png") ;
+}
+.product-item6{
+
+    position: relative;
+    width: 100%;
+    height: 306px;
+    background-image:url("https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/IMG/mission1/student-week1/p-6.png") ;
+}
+
+
+
 .product-name{
     position: relative;
+    width: 100%;
+    height: 36px;
     display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+    border: 0.5px solid #EAF0ED;
+    padding-right: -5px;
+}
+.product-name .name{
+    /*lack of line between name and price*/
+    position: relative;
+    font-size: 16px;
+    color: #3F5D45;
+}
+.product-name .price{
+    position: relative;
+    /* border: 0.5px solid #EAF0ED; */
+}
+.addToCart{
+    position: relative;
+    background-color: #EAF0ED;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  
+}
+.addToCart a{
+    text-decoration: none;
+    color:#3F5D45;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.pg-frame{
+    position: relative;
+    display: flex;
+    justify-content: end;
 
+}
+.pg-number{
+    position: relative;
+    display: flex;
+    text-align: center; 
+    
+}
+.pg-number .p1{
+    position: relative;
+    
+}
+.img1 img{
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+.img2 img{
+    position: relative;
+    width: 100%;
+    height: 60px;
 }
