@@ -109,16 +109,19 @@
 .heart{
     z-index: 1;
     position: absolute;
-    right:0px;
+    top: 16px;
+    right:15px;
+
 }
 .speChoice span{
     z-index: 1;
     position: absolute;
-    left:0px;
+    /* left:0px; */
     background-color: #3F5D45;
     padding:10px;
     color: #EAF0ED;
     writing-mode:vertical-lr;
+    left:16px;
 }
 .product-item2{
 
