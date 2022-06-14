@@ -123,85 +123,44 @@
    
   }
   
-  .social-three{
-      margin-top: 101px;
-      margin-bottom: 100px;
-  }
-  .social-three p {
-    
-    height: 46px;
-    font: normal normal bold 32px/46px Noto Sans TC;
-    letter-spacing: 0px;
-    color: #221E1F;
-    text-align: center;
-        
-        
-  }
-  .social-three ul{
-    display:flex;
-    justify-content: space-around;
-   
-     
-    }
-    .fb{
-        width:224px;
-        height: 221px;
-    
-    }
-    .fb .fb-photo{
-        text-align: center;
-    }
-   
-.fb h2{
+  .social-para p{
+    box-sizing: border-box;
+  padding-top:5%;
+  text-align:center;
+  font-size:32px;
+  font-weight:bold;
+}
+.social-3 ul{
+   box-sizing: border-box;
+  padding-top:5%;
+  display:flex;
+  justify-content:space-around;
+  text-align:center;
   
-    text-align: center;
-    font: normal normal bold 24px/35px Noto Sans TC;
-    letter-spacing: 0px;
 }
-.fb p{
-    top: 1136px;
-left: 201px;
-width: 228px;
-height: 48px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 16px/24px Noto Sans TC;
-letter-spacing: 0px;
-color: #747474;
+.social-3 ul li img{
+  width:15%;
+  box-sizing: border-box;
+  padding-bottom:5%;
+ 
 }
-.fb-photo {
-    margin-top:24px;
-    margin-bottom:24px;
-    margin-left:77px;
-    margin-right:77px;
-    width: 90px;
-    height: 90px;
-    background-size: contain;
-    background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/messenger.svg');
-       
+.socialName{
+   box-sizing: border-box;
+  padding-top:1%;
+  font-size:24px;
+  font-weight:bold;
+   padding-bottom:5%;
 }
-.line-photo{
-    margin-top:24px;
-    margin-bottom:24px;
-    margin-left:77px;
-    margin-right:77px;
-    width: 90px;
-    height: 90px;
-    background-size: contain;
-    background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/line.svg');
+.socialPara{
+  position:relative;
+   box-sizing: border-box;
+  padding-top:2%;
+  font-size:16px;
+  width:80%;
+  text-align:center;
+  padding-left:15%;
+  padding-bottom:5%;
 }
-    
-.ig-photo{
-    margin-top:24px;
-    margin-bottom:24px;
-    margin-left:77px;
-    margin-right:77px;
-    width: 90px;
-    height: 90px;
-    background-size: contain;
-    background-image: url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/instagram.svg');
-}
-
 /* 任何腳色我都能給，下面 */
 .role4 ul li img{
     width: 100%;
@@ -685,29 +644,15 @@ padding-right: 461px; */
      background-repeat: no-repeat;
      
      /* top:109vh; */
-     top:173vh;
+     /* top:173vh; */
+     top:215vh;
      left: -120px;
  }
-    .social-three{
-        position: relative;
-    }
-    .social-three ul{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-        /* padding-left: 15%;
-       */
-    }
-    s
-    .social-three.fb{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        
-        
-    }
+ .social-3 ul{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+  }
     .role4 ul{
         position: relative; 
         display: flex;
