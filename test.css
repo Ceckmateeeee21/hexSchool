@@ -612,6 +612,7 @@ padding-right: 461px; */
         box-sizing: border-box;
         padding-left:5%;
         padding-right:5%;
+        border-bottom: 2px solid#FFD153;
     }
    .toplogo-detail{
     /* background-color: aqua; */
