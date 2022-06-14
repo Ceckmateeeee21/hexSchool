@@ -40,6 +40,13 @@
 .toplogo{
     display:flex;
     justify-content:space-between;
+    box-sizing: border-box;
+    /* padding-left:5%;
+    padding-right:5%; */
+}
+.toplogo .toplogo-detail{
+   box-sizing: border-box;
+   padding-top:5%;
      
 }
 /* chat robot圖文在這一層 */
@@ -600,7 +607,12 @@ padding-right: 461px; */
 }
 /***********************************************/
 @media(max-width:768px){
-   
+    .toplogo{
+       
+        box-sizing: border-box;
+        padding-left:5%;
+        padding-right:5%;
+    }
    .toplogo-detail{
     /* background-color: aqua; */
     
