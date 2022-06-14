@@ -162,63 +162,56 @@
   padding-bottom:5%;
 }
 /* 任何腳色我都能給，下面 */
-.role4 ul li img{
-    width: 100%;
-    
-}
-.role4 ul{
-    /*width: 100px;*/
-    display: flex;
-    /* background-color: yellow; */
-   /* justify-content: space-around; */
-   gap:16px;
-      
-
-}
-.role4 img{
-    position: relative;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-}
-.role-item{
-    position: relative;
-    width: 25%;
-    height: 25%;
-    text-align: center;
-    
-    
-}
-.role-title{
-    position: relative;
- font-size: 32px;
- font-family: Noto Sans TC;
- font-weight:800;
- text-align: center;
-}
-
-.role-p{
-    position: relative;
-    font-size: 20px;
-    font-family: Noto Sans TC;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight:580;
-}
-.role-item h2{
+/*role*/
+.role-para h2{
+    font-size:32px;
+    font-weight:bold;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top:5%;
+  }
+  .role-para .roleMainP{
+    box-sizing: border-box;
+    font-size:20px;
+   text-align:center;
+   padding-top:3%;
+    padding-bottom:5%;
+  }
+  .role-para ul li img{
+  /*   width:25%; */
+    box-sizing: border-box;
+    padding-bottom:1%;
+    border-radius:10px 10px 0px 0px;
+    /*上下左右*/
+  }
+  .role-para ul{
+     position:relative;
+  /*    width:100%; */
+    display:flex;
+    gap:16px;
+   
+  }
+  .roleName{
+  /*   width:25%; */
+    box-sizing: border-box;
+    font-size:16px;
     color:#56C4C5;
-    padding-top: 10px;
-    padding-left:16px;
-    padding-right:16px;
-
-}
-.role-item p{
+    text-align:center;
+    padding-top:5%;
+    padding-bottom:5%;
+    font-weight:bold;
+    
+  }
+  .roleP{
+  /*    width:25%; */
+    box-sizing: border-box;
+    font-size:16px;
+    text-align:center;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
     color:#221E1F;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:16px;
-    padding-right:16px;
-}
+  }
 /*data-pool*/
 
 data-pool{
@@ -653,21 +646,18 @@ padding-right: 461px; */
     flex-direction:column;
     text-align:center;
   }
-    .role4 ul{
-        position: relative; 
-        display: flex;
-        flex-direction: column;
-        /* padding-left: 15%; */
-    }
-    
-    .role-item{
-        position: relative;
-        width: 80%;
-        background-size: contain;
-        /* text-align: center; */
-        
-    }
-    
+  .role-para ul{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    padding-left:5%;
+    padding-right:5%;
+  }
+  .roleMainP{
+    box-sizing: border-box;
+    padding-left:5%;
+    padding-right:5%;
+  }
     /* .data-item{
         margin-bottom: 20px;
     } */
