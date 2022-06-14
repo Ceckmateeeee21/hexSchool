@@ -617,7 +617,8 @@ padding-right: 461px; */
     border: none;
     outline: none;
     /* background-color: green; */
-    background-color: #56C4C5;
+    /* background-color: #56C4C5; */
+    background-color: #2bc8cb;
     font-weight: bold;
     color: white;
     cursor: pointer;
