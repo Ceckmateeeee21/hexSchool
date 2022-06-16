@@ -278,7 +278,7 @@ data-pool{
   background-repeat:no-repeat;
   border-radius:45%;
   box-shadow: 0px 2px 10px rgb(147,125,70);/*水平、垂直、模糊狀態、顏色*/
-  box-shadow: 0px 2px 10px rgba(147,125,70,0.1);/*水平、垂直、模糊狀態、顏色、透明度*/
+  /* box-shadow: 0px 2px 10px rgba(147,125,70,0.1);水平、垂直、模糊狀態、顏色、透明度 */
   background-image:url('https://raw.githubusercontent.com/Ceckmateeeee21/hexSchool/main/chatTalker_images/icon01.svg');
  
 }
